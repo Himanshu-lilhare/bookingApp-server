@@ -4,5 +4,5 @@ import { createHotel } from '../controllers/hotel.js'
 const hotelRouter = express.Router()
 
 hotelRouter.route('/createhotel').post(createHotel)
-
+// gf
 export default hotelRouter
